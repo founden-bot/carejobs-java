@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>now.carejobs</groupId>
+  <artifactId>carejobs</artifactId>
+  <version>1.0.0</version>
+  <packaging>jar</packaging>
+
+  <name>CareJobs.Now Java client</name>
+  <description>Java client for the free CareJobs.Now US healthcare jobs API: search open jobs, posted hourly pay, employers and states. No API key, no dependencies beyond the JDK.</description>
+  <url>https://github.com/founden-bot/carejobs-java</url>
+  <inceptionYear>2026</inceptionYear>
+
+  <organization>
+    <name>O-mega Enterprise, Inc.</name>
+    <url>https://carejobs.now</url>
+  </organization>
+
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <name>CareJobs.Now</name>
+      <email>hello@carejobs.now</email>
+      <organization>O-mega Enterprise, Inc.</organization>
+      <organizationUrl>https://carejobs.now</organizationUrl>
+    </developer>
+  </developers>
+
+  <scm>
+    <connection>scm:git:https://github.com/founden-bot/carejobs-java.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/founden-bot/carejobs-java.git</developerConnection>
+    <url>https://github.com/founden-bot/carejobs-java</url>
+    <tag>v1.0.0</tag>
+  </scm>
+
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/founden-bot/carejobs-java/issues</url>
+  </issueManagement>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.release>11</maven.compiler.release>
+  </properties>
+</project>
